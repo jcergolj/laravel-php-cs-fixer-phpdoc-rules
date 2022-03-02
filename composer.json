@@ -1,0 +1,21 @@
+{
+    "name": "jcergolj/laravel-php-cs-fixer-phpdoc-rules",
+    "description": "Missing Laravel php cs fixer phpdoc rules",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Janez Cergolj",
+            "email": "me@jcergolj.me.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+     "autoload": {
+      "psr-4": {
+        "Jcergolj\\LaravelPhpCsPhpdocRules\\": "src/"
+      }
+    },
+    "require": {
+        "adamwojs/php-cs-fixer-phpdoc-force-fqcn": "^2.0"
+    }
+}

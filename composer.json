@@ -14,5 +14,8 @@
       "psr-4": {
         "Jcergolj\\LaravelPhpCsPhpdocRules\\": "src/"
       }
+    },
+    "require-dev": {
+        "adamwojs/php-cs-fixer-phpdoc-force-fqcn": "^2.0"
     }
 }
